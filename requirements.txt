@@ -2,5 +2,5 @@ streamlit
 requests
 pandas
 json
-plotly
+plotly-express
 numpy
