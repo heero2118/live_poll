@@ -6,7 +6,7 @@ import plotly.express as px
 import numpy as np
 
 st.set_page_config('📋 Polling Questions', initial_sidebar_state='collapsed')
-st.title("📋 Live Poll Demo")
+st.title("📋 Polling Question")
 st.divider()
 
 # set up parameters
@@ -14,7 +14,7 @@ api_base_url = "https://api.surveysparrow.com/v3" # Change if needed
 api_key = st.secrets['access_token']
 survey_id = st.secrets['survey_id']
 image_url = 'QR-velocity.png'
-survey_url = 'https://sprw.io/stt-SHVpi'
+survey_url = 'https://sprw.io/stt-R8z3N'
 
 # --- API Call Function ---
 def fetch_survey_data(base_url, key, s_id, retries=3):
